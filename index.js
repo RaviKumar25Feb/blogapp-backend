@@ -12,7 +12,7 @@ const dbConnect = require("./configs/dbConnect")
 dbConnect();
 
 app.use(cors({
-  origin: 'https://blogapp-frontend-xi.vercel.app/'
+  origin: 'https://blogapp-frontend-xi.vercel.app'
 }));
 
 
